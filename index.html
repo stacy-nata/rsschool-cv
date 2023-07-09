@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV HTML&amp;CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet" />
+    <script src = "js/highlight.min.js"> </script>
+    <script> hljs.highlightAll();</script>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+        <header class="header">
+            <div class="container">
+
+                <nav>
+                    <div class="nav-items">
+                <a href="#">About me</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                    </div>
+ 
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <h1 class="name">Anastasiia Krykunova</h1>
+            <h2 class="occupation">Student</h2>
+        
+        <div id="ava">
+            <img src="photo.jpg" width="175" alt="my photo">
+        </div>
+        <div class= "about me">
+            <h2>Hello!</h2>
+            <p>I am from Ukraine, Zaporizhzia. I am confident to say that I am excellent at accurate science. In addition, I always try
+            to achieve my goals. However, I would say that my greatest talent is communication with people, ability to resolve
+            disputes and give peace. I am always amazed when people are unable to reach an agreement or understand each other’s
+            opinion or look at the problem from the other side. I am fond of team-working. I find it enjoyable to come up with new
+            ideas. Nowadays, my dream is to create my start-up in the field of IT business in Ukraine.The motto of the lyceum where
+            I studied: "The road will be mastered by walking" this means that to achieve the goal, you need to move and not give up
+            if difficulties arise along the way. I decided that this motto will be the slogan of my whole life, so I believe that if
+            I put in enough effort, I can conquer the peaks.</p>
+        </div>
+
+    <div class="contacts">
+        <h2>Contact details:</h2>
+        <ul class = "contacts-info">
+            <li>Phone: +38 066 275 22 86 </li>
+            <li>Email: anas.krikunova@gmail.com </li>
+            <li><a href="https://github.com/stacy-nata">Github</a></li>
+        </ul>
+    </div>
+
+
+    <section id ="skills">
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>Basics of Python </li>
+            <li>C++ </li>
+            <li>HTML</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+    <h2>Experience:</h2>
+    <div class="experience">
+        <ul class="experience">
+            <li><a href="https://www.figma.com/file/mCSz8rfJFVvXQzm9mvWkVY?type=design&node-id=1-2&t=YUvp8Gg3S9l1m5gJ-0">Perfume project</a></li>
+            <li><a href="https://www.figma.com/file/pGzY7H5Vgc2gW1l3rgeM0T?type=design&node-id=0-1&t=X0HBlpnnImzx9lox-0">University project</a></li>
+            <li><a href="https://www.figma.com/file/Tuxa8nWHZMNEmZ22DlD14N?type=design&node-id=6-2&t=C8WOCZX7vLniypr4-0">Eco project (first place)</a></li>
+        </ul>
+    </div>
+  </section>
+
+
+
+
+
+    <section class="code-example" id="code-example">
+        <h2 class="section-title">Code example</h2>
+        <details>
+            <summary>From course</summary>
+            <pre>
+                  <code data-language = "javascript">
+                    function bmi(weight, height) {
+                        const bmi = weight / (height * height);
+                        return bmi <= 18.5 ? 'Underweight' : bmi <=25 ? 'Normal' : bmi <=30 ? 'Overweight' : 'Obese' ; }
+
+                  </code>
+                </pre>
+        </details>
+    </section>
+
+
+
+
+
+
+
+
+    <section id="education"">
+    <h2>Education:</h2>
+            <ul class="education">
+                <li>University: Computer Science (Bachelor) Kyiv National Economic University in progress</li>
+                <li>Courses Introduction to Web Design (participant and facilitator in Nobel)</li>
+                <li>Courses Pitch and Presentation</li>
+                <li>Courses Basics of Internet Troubleshooting and Communication</li>
+                <li>Courses Intro to Graphic Design</li>
+                <li>Courses Intro to Digital Marketing Strategies</li>
+            </ul>
+    </section>
+
+    <section id="languages">
+        <h2>Languages:</h2>
+            <ul class="languages">
+                <li>Ukrainian</li>
+                <li>English, IELTS 6.5</li>
+                <li>German, Zertifikat A2</li>
+                <li>French, A2</li>
+            </ul>
+    </section>
+    </main>
+
+
+    <footer>
+
+<footer class="footer">
+<div class="container">
+        <div id="logo">
+            <ul style="list-style-type: none">
+                <li><img src="logo.svg" width="175" alt="logo"></li>
+                <li><a href="https://rs.school/js/">RSSCHOOL</a></li>
+                <li><a href="https://github.com/stacy-nata">Github</a></li>
+            </ul>
+            
+
+            <p>2023</p>
+    
+        </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+
+</html>
